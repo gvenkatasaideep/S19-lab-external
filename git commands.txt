@@ -1,0 +1,13 @@
+->mkdir fed
+->git init
+->git status
+->git add index.html
+->git commit -m "Initial commit with index.html"
+->git add .
+->git commit -m "Second commit"
+->git add .
+->git commit -m "Third commit"
+->git log --oneline
+->git remote add origin https://github.com/gvenkatasaideep/s19 lab-external.git
+-> git branch -M main
+-> git push -u origin main
